@@ -1,0 +1,15 @@
+# TODO
+
+- [ ] Add hooks that generate automatically:
+-- PDF file if a `schema` (.sch) file has changed (use python and plot)
+See:
+	https://github.com/KiCad/kicad-source-mirror/tree/master/demos/python_scripts_examples
+-- Gerber files if a `PCB` (.kicad_pcb) has changed (use python and plot)
+-- 3D step file if a footprint has changed
+See: 
+	https://forum.kicad.info/t/command-line-to-plot-pdf/4779/12
+	https://raw.githubusercontent.com/KiCad/kicad-source-mirror/698197ec8d147782efb7f4deefaf2a47bab95a67/demos/python_scripts_examples/gen_gerber_and_drill_files_board.py
+
+- [ ] Add tools to ignore some changes
+See: 
+	https://jnavila.github.io/plotkicadsch/

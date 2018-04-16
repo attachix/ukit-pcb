@@ -1,0 +1,15 @@
+Reference, Value, Footprint,Manufacture,Manufacture Part,Quantity,Specification
+U1,ESP-12E,ESP8266:ESP-12E,AI-Thinker,ESP-12E,1,
+P1,CONN_02X05,Socket_Strips:Socket_Strip_Angled_2x05,,,,
+R1,10K,Resistors_SMD:R_0805_HandSoldering,Ohmite,AS08J1002ET,1,http://eu.mouser.com/ProductDetail/Ohmite/AS08J1002ET/
+R2,10K,Resistors_SMD:R_0805_HandSoldering,,,,
+R3,220,Resistors_SMD:R_0805_HandSoldering,Panasonic,ERJ-6GEYJ221V,1,http://eu.mouser.com/ProductDetail/Panasonic/ERJ-6GEYJ221V/
+R4,220,Resistors_SMD:R_0805_HandSoldering,,,,
+R7,10k,Resistors_SMD:R_0805_HandSoldering,,,,
+R9,220,Resistors_SMD:R_0805_HandSoldering,,,,
+R6,220,Resistors_SMD:R_0805_HandSoldering,,,,
+R8,220,Resistors_SMD:R_0805_HandSoldering,,,,
+R5,220,Resistors_SMD:R_0805_HandSoldering,,,,
+C1,100n,Capacitors_SMD:C_0805_HandSoldering,Yageo,AC0805KRX7R9BB104,1,http://eu.mouser.com/ProductDetail/Yageo/AC0805KRX7R9BB104/
+C2,220u,Capacitors_THT:CP_Radial_D6.3mm_P2.50mm,Panasonic,ECA-1CM221,1,http://eu.mouser.com/ProductDetail/Panasonic/ECA-1CM221/
+P2,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,,,,

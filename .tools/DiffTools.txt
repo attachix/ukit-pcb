@@ -1,0 +1,12 @@
+#Installation
+
+Add the following lines to your git configuration file:
+[diff "gerber"]
+	command = .tools/gerber_diff.sh
+[diff "image"]
+	command = .tools/image_diff.sh 
+[diff "pdf"]
+	command = .tools/pdf_diff.sh
+[diff "schema"]
+	command = .tools/schema_diff.sh
+

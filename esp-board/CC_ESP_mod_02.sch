@@ -1,0 +1,444 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:CC_ESP_mod_02-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "CC_ESP_mod_02"
+Date ""
+Rev ""
+Comp "Computer Center Ltd."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-12E U1
+U 1 1 5890A549
+P 4300 2100
+F 0 "U1" H 4300 2000 50  0000 C CNN
+F 1 "ESP-12E" H 4300 2200 50  0000 C CNN
+F 2 "ESP8266:ESP-12E" H 4300 2100 50  0001 C CNN
+F 3 "" H 4300 2100 50  0001 C CNN
+F 4 "AI-Thinkerer" H 4300 2100 60  0001 C CNN "Manufacturer"
+F 5 "ESP8266-12E" H 4300 2100 60  0001 C CNN "manf#"
+	1    4300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P1
+U 1 1 5890A771
+P 4300 4150
+F 0 "P1" H 4300 4450 50  0000 C CNN
+F 1 "CONN_02X05" H 4300 3850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x05" H 4300 2950 50  0001 C CNN
+F 3 "" H 4300 2950 50  0000 C CNN
+F 4 "CB94102H100" H 4300 4150 60  0001 C CNN "manf#"
+F 5 "CVILUX" H 4300 4150 60  0001 C CNN "Manufacturer"
+F 6 "https://store.comet.bg/Catalogue/Product/6079/#e30%3D" H 4300 4150 60  0001 C CNN "Specification"
+	1    4300 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5890A9D1
+P 1750 1800
+F 0 "R1" V 1830 1800 50  0000 C CNN
+F 1 "10K" V 1750 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1680 1800 50  0001 C CNN
+F 3 "" H 1750 1800 50  0000 C CNN
+F 4 "Ohmite" V 1750 1800 60  0001 C CNN "Manufacturer"
+F 5 "AS08J1002ET" V 1750 1800 60  0001 C CNN "manf#"
+	1    1750 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5890AD75
+P 1750 2000
+F 0 "R2" V 1830 2000 50  0000 C CNN
+F 1 "10K" V 1750 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1680 2000 50  0001 C CNN
+F 3 "" H 1750 2000 50  0000 C CNN
+F 4 "AS08J1002ET" V 1750 2000 60  0001 C CNN "manf#"
+	1    1750 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5890AD9E
+P 2500 3400
+F 0 "R3" V 2580 3400 50  0000 C CNN
+F 1 "220" V 2500 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2430 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0000 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5890B237
+P 5250 4400
+F 0 "R4" V 5330 4400 50  0000 C CNN
+F 1 "220" V 5250 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5180 4400 50  0001 C CNN
+F 3 "" H 5250 4400 50  0000 C CNN
+	1    5250 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5890B414
+P 5650 2400
+F 0 "R7" V 5700 2250 50  0000 C CNN
+F 1 "10K" V 5650 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 2400 50  0001 C CNN
+F 3 "" H 5650 2400 50  0000 C CNN
+F 4 "AS08J1002ET" V 5650 2400 60  0001 C CNN "manf#"
+F 5 "Ohmite" V 5650 2400 60  0001 C CNN "Manufacturer"
+	1    5650 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 5890B485
+P 6050 2100
+F 0 "R9" V 6130 2100 50  0000 C CNN
+F 1 "220" V 6050 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5980 2100 50  0001 C CNN
+F 3 "" H 6050 2100 50  0000 C CNN
+F 4 "ERJ-6GEYJ221V" V 6050 2100 60  0001 C CNN "manf#"
+	1    6050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5890B4C2
+P 5650 2000
+F 0 "R6" V 5700 1850 50  0000 C CNN
+F 1 "220" V 5650 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 2000 50  0001 C CNN
+F 3 "" H 5650 2000 50  0000 C CNN
+F 4 "ERJ-6GEYJ221V" V 5650 2000 60  0001 C CNN "manf#"
+	1    5650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5890B555
+P 6050 1900
+F 0 "R8" V 6100 1750 50  0000 C CNN
+F 1 "220" V 6050 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5980 1900 50  0001 C CNN
+F 3 "" H 6050 1900 50  0000 C CNN
+F 4 "ERJ-6GEYJ221V" V 6050 1900 60  0001 C CNN "manf#"
+	1    6050 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5890B5E8
+P 5650 1800
+F 0 "R5" V 5700 1650 50  0000 C CNN
+F 1 "220" V 5650 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 1800 50  0001 C CNN
+F 3 "" H 5650 1800 50  0000 C CNN
+F 4 "ERJ-6GEYJ221V" V 5650 1800 60  0001 C CNN "manf#"
+F 5 "Panasonic" V 5650 1800 60  0001 C CNN "Manufacturer"
+	1    5650 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5890B6D1
+P 3400 4050
+F 0 "C1" H 3425 4150 50  0000 L CNN
+F 1 "100n" H 3425 3950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3438 3900 50  0001 C CNN
+F 3 "" H 3400 4050 50  0000 C CNN
+F 4 "AC0805KRX7R9BB104" H 3400 4050 60  0001 C CNN "manf#"
+F 5 "Yageo" H 3400 4050 60  0001 C CNN "Manufacturer"
+	1    3400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5890B7AE
+P 3700 4050
+F 0 "C2" H 3725 4150 50  0000 L CNN
+F 1 "220u" H 3725 3950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3738 3900 50  0001 C CNN
+F 3 "" H 3700 4050 50  0000 C CNN
+F 4 "ECA-1CM221" H 3700 4050 60  0001 C CNN "manf#"
+F 5 "Panasonic" H 3700 4050 60  0001 C CNN "Manufacturer"
+F 6 "https://store.comet.bg/Catalogue/Product/5122/" H 3700 4050 60  0001 C CNN "Specification"
+	1    3700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 5890B905
+P 4900 4150
+F 0 "P2" H 4900 4300 50  0000 C CNN
+F 1 "CONN_01X02" V 5000 4150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4900 4150 50  0001 C CNN
+F 3 "" H 4900 4150 50  0000 C CNN
+F 4 "CH31022V200" H 4900 4150 60  0001 C CNN "manf#"
+F 5 "CVILUX" H 4900 4150 60  0001 C CNN "Manufacturer"
+F 6 "https://store.comet.bg/Catalogue/Product/17819/#e30%3D" H 4900 4150 60  0001 C CNN "Specification"
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR01
+U 1 1 5890FBDC
+P 1500 1600
+F 0 "#PWR01" H 1500 1450 50  0001 C CNN
+F 1 "+3.3V" H 1500 1740 50  0000 C CNN
+F 2 "" H 1500 1600 50  0000 C CNN
+F 3 "" H 1500 1600 50  0000 C CNN
+	1    1500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 5890FC1A
+P 3200 2500
+F 0 "#PWR02" H 3200 2350 50  0001 C CNN
+F 1 "+3.3V" H 3200 2640 50  0000 C CNN
+F 2 "" H 3200 2500 50  0000 C CNN
+F 3 "" H 3200 2500 50  0000 C CNN
+	1    3200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 5890FCBA
+P 3200 3850
+F 0 "#PWR03" H 3200 3700 50  0001 C CNN
+F 1 "+3.3V" H 3200 3990 50  0000 C CNN
+F 2 "" H 3200 3850 50  0000 C CNN
+F 3 "" H 3200 3850 50  0000 C CNN
+	1    3200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5890FCEA
+P 5200 3800
+F 0 "#PWR04" H 5200 3550 50  0001 C CNN
+F 1 "GND" H 5200 3650 50  0000 C CNN
+F 2 "" H 5200 3800 50  0000 C CNN
+F 3 "" H 5200 3800 50  0000 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5890FD6A
+P 5300 2600
+F 0 "#PWR05" H 5300 2350 50  0001 C CNN
+F 1 "GND" H 5300 2450 50  0000 C CNN
+F 2 "" H 5300 2600 50  0000 C CNN
+F 3 "" H 5300 2600 50  0000 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5890FD9A
+P 3200 4250
+F 0 "#PWR06" H 3200 4000 50  0001 C CNN
+F 1 "GND" H 3200 4100 50  0000 C CNN
+F 2 "" H 3200 4250 50  0000 C CNN
+F 3 "" H 3200 4250 50  0000 C CNN
+	1    3200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2000 3400 2000
+Wire Wire Line
+	3200 2500 3400 2500
+Wire Wire Line
+	2850 3850 4100 3850
+Wire Wire Line
+	2850 4250 3700 4250
+Wire Wire Line
+	4100 4500 4100 4400
+Wire Wire Line
+	3400 1900 2750 1900
+Wire Wire Line
+	2750 1900 2750 3600
+Wire Wire Line
+	2750 3600 4200 3600
+Wire Wire Line
+	4200 3600 4200 3900
+Wire Wire Line
+	4200 4600 4200 4400
+Wire Wire Line
+	4500 3900 4500 3800
+Wire Wire Line
+	4500 3800 5200 3800
+Wire Wire Line
+	4500 4400 5100 4400
+Wire Wire Line
+	5200 2400 5500 2400
+Wire Wire Line
+	5200 2500 5800 2500
+Wire Wire Line
+	5300 2500 5300 2600
+Wire Wire Line
+	5800 2500 5800 2400
+Connection ~ 5300 2500
+Wire Wire Line
+	5200 1800 5500 1800
+Wire Wire Line
+	5200 1900 5900 1900
+Wire Wire Line
+	5200 2000 5500 2000
+Wire Wire Line
+	5200 2100 5900 2100
+Wire Wire Line
+	5200 2200 5900 2200
+Wire Wire Line
+	5900 2200 5900 4400
+Wire Wire Line
+	5900 4400 5400 4400
+Wire Wire Line
+	6200 2100 6200 4600
+Wire Wire Line
+	6200 4600 4400 4600
+Wire Wire Line
+	4400 4600 4400 4400
+Wire Wire Line
+	4400 3900 4400 3700
+Wire Wire Line
+	4400 3700 6300 3700
+Wire Wire Line
+	6300 3700 6300 2000
+Wire Wire Line
+	6300 2000 5800 2000
+Wire Wire Line
+	6200 1900 6400 1900
+Wire Wire Line
+	6400 1900 6400 4800
+Wire Wire Line
+	6400 4800 4300 4800
+Wire Wire Line
+	4300 4800 4300 4400
+Wire Wire Line
+	4300 3900 4300 3650
+Wire Wire Line
+	4300 3650 6500 3650
+Wire Wire Line
+	6500 3650 6500 1800
+Wire Wire Line
+	6500 1800 5800 1800
+NoConn ~ 5200 2300
+NoConn ~ 3400 2200
+NoConn ~ 3400 2300
+NoConn ~ 3400 2400
+NoConn ~ 4050 3000
+NoConn ~ 4150 3000
+NoConn ~ 4250 3000
+NoConn ~ 4350 3000
+NoConn ~ 4450 3000
+NoConn ~ 4550 3000
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5891115E
+P 2850 3850
+F 0 "#FLG07" H 2850 3945 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 4030 50  0000 C CNN
+F 2 "" H 2850 3850 50  0000 C CNN
+F 3 "" H 2850 3850 50  0000 C CNN
+	1    2850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5891118E
+P 2850 4250
+F 0 "#FLG08" H 2850 4345 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 4430 50  0000 C CNN
+F 2 "" H 2850 4250 50  0000 C CNN
+F 3 "" H 2850 4250 50  0000 C CNN
+	1    2850 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3850
+Connection ~ 3200 4250
+Wire Wire Line
+	1500 1600 1500 2000
+Wire Wire Line
+	1500 2000 1600 2000
+Connection ~ 1500 1800
+Wire Wire Line
+	1600 1800 1500 1800
+Wire Wire Line
+	2500 3250 2500 2100
+Wire Wire Line
+	2500 2100 3400 2100
+Wire Wire Line
+	2500 3550 2500 4500
+Wire Wire Line
+	2500 4500 4100 4500
+Wire Wire Line
+	3700 4250 3700 4200
+Wire Wire Line
+	4100 3850 4100 3900
+Wire Wire Line
+	3700 3900 3700 3850
+Connection ~ 3700 3850
+Wire Wire Line
+	3400 3900 3400 3850
+Connection ~ 3400 3850
+Wire Wire Line
+	3400 4200 3400 4250
+Connection ~ 3400 4250
+Wire Wire Line
+	4700 4100 4700 3800
+Connection ~ 4700 3800
+Wire Wire Line
+	4700 4200 4700 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	1900 1800 3400 1800
+Wire Wire Line
+	4200 4600 2200 4600
+Wire Wire Line
+	2200 4600 2200 1800
+Connection ~ 2200 1800
+$EndSCHEMATC

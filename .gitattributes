@@ -1,0 +1,4 @@
+*.pdf diff=pdf
+*.gbr diff=gerber
+*.drl diff=gerber
+*.sch diff=schema

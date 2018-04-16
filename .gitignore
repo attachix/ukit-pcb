@@ -1,0 +1,9 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+
+# FreeCad files
+*.FCStd
+*.FCStd1

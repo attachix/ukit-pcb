@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/slavey/416431e8-fd46-4982-896d-5025a72dd361/slavey/dev/esp8266.dev.box/dev/smartguard_pcb/smoke-board/CC_SM_mod_01.sch</source>
+    <date>Mi 17 Mai 2017 23:07:32 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CC_SM_mod_01</title>
+        <company>Computer Center Ltd.</company>
+        <rev/>
+        <date>2017-03-05</date>
+        <source>CC_SM_mod_01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="OP1">
+      <value>SmCh</value>
+      <footprint>CC_SM_mod_footprint:SmCh_LS-512-2</footprint>
+      <fields>
+        <field name="manf#">LS-510-2</field>
+        <field name="Manufacturer">LongSin</field>
+      </fields>
+      <libsource lib="CC_SM_mod" part="SmCh"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C7FE36</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>A5366</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <fields>
+        <field name="manf#">A5366CA-T</field>
+        <field name="Manufacturer">Allegro</field>
+      </fields>
+      <libsource lib="CC_SM_mod" part="A5366"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C80B2F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC847</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="manf#">BC847C</field>
+        <field name="Manufacturer">NXP_Semiconductors</field>
+        <field name="Specification">http://datasheet.octopart.com/BC847-Philips-datasheet-5341283.pdf</field>
+        <field name="Specification2">https://store.comet.bg/Catalogue/Product/25145/</field>
+      </fields>
+      <libsource lib="CC_SM_mod" part="BC847"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C812F1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>CC_Footprint:WF3R</footprint>
+      <fields>
+        <field name="manf#">CI3103P1H00</field>
+        <field name="Manufacturer">CVILUX</field>
+        <field name="Specification">https://store.comet.bg/Catalogue/Product/22269/</field>
+        <field name="Counterpart">https://store.comet.bg/Catalogue/Product/22266/#e30%3D</field>
+        <field name="ConnectingCable">https://store.comet.bg/Catalogue/Product/12279/</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C813F2</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5K</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C836FA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>8K2</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">ERJ-6ENF8201V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83802</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C838F4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>560R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C839A3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>200K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">ERJ-6GEYJ204V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C839FD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83C2F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83D0B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83D8D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">AS08J1002ET</field>
+        <field name="Manufacturer">Ohmite</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83E19</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83E93</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83F35</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">AS08J1003ET</field>
+        <field name="Manufacturer">Ohmite</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C83F8E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">885012207043</field>
+        <field name="Manufacturer">Wurth Electronics</field>
+        <field name="mouser#">710-885012207043</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C84034</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4n7</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C840C7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1n5</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C84787</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C849B4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C84A36</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="manf#">AS08J1001ET</field>
+        <field name="Manufacturer">Ohmite</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C876EC</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="manf#">CH31022V200</field>
+        <field name="Manufacturer">CVILUX</field>
+        <field name="Specification">https://store.comet.bg/Catalogue/Product/17819/#e30%3D</field>
+      </fields>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C877A8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>CC_Footprint:LED_D3.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C879A8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CC_SM_mod" part="A5366">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A5366</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="input"/>
+        <pin num="2" name="C2" type="input"/>
+        <pin num="3" name="DETECT" type="input"/>
+        <pin num="4" name="STROBE" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="IRED" type="output"/>
+        <pin num="7" name="I/O" type="BiDi"/>
+        <pin num="8" name="HORN1" type="output"/>
+        <pin num="9" name="HORN2" type="output"/>
+        <pin num="10" name="FEEDBACK" type="input"/>
+        <pin num="11" name="LED" type="output"/>
+        <pin num="12" name="OSC_CAP" type="input"/>
+        <pin num="13" name="TIMING_RES" type="input"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="HUSH" type="input"/>
+        <pin num="16" name="TEST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC_SM_mod" part="BC847">
+      <aliases>
+        <alias>BC849</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, Low noise, NPN, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC850.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC847</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper, normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT_TRIM">
+      <description>Trim-Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC_SM_mod" part="SmCh">
+      <fields>
+        <field name="Reference">OP</field>
+        <field name="Value">SmCh</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PhD_C" type="passive"/>
+        <pin num="2" name="PhD_A" type="passive"/>
+        <pin num="3" name="LED_A" type="passive"/>
+        <pin num="4" name="LED_C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="CC_SM_mod">
+      <uri>library/CC_SM_mod.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C5-Pad2)">
+      <node ref="U1" pin="12"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="6" name="Net-(JP1-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="R9" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="13" name="VAA">
+      <node ref="R12" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C3-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="OP1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(OP1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="OP1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(R7-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P1-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="25" name="Net-(OP1-Pad4)">
+      <node ref="Q1" pin="3"/>
+      <node ref="OP1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="OP1" pin="3"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,603 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CC_SM_mod
+LIBS:CC_SM_mod_01-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "CC_SM_mod_01"
+Date "2017-03-05"
+Rev ""
+Comp "Computer Center Ltd."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SmCh OP1
+U 1 1 58C7FE36
+P 3100 5000
+F 0 "OP1" H 3100 4600 60  0000 C CNN
+F 1 "SmCh" H 3100 5400 60  0000 C CNN
+F 2 "CC_SM_mod_footprint:SmCh_LS-512-2" H 3100 5000 60  0001 C CNN
+F 3 "" H 3100 5000 60  0001 C CNN
+F 4 "LS-510-2" H 3100 5000 60  0001 C CNN "manf#"
+F 5 "LongSin" H 3100 5000 60  0001 C CNN "Manufacturer"
+	1    3100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L A5366 U1
+U 1 1 58C80B2F
+P 6700 3400
+F 0 "U1" H 6700 2500 60  0000 C CNN
+F 1 "A5366" H 6700 4300 60  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 6700 3400 60  0001 C CNN
+F 3 "" H 6700 3400 60  0001 C CNN
+F 4 "A5366CA-T" H 6700 3400 60  0001 C CNN "manf#"
+F 5 "Allegro" H 6700 3400 60  0001 C CNN "Manufacturer"
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC847 Q1
+U 1 1 58C812F1
+P 5000 3700
+F 0 "Q1" H 5200 3775 50  0000 L CNN
+F 1 "BC847" H 5200 3700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5200 3625 50  0000 L CIN
+F 3 "" H 5000 3700 50  0000 L CNN
+F 4 "BC847C" H 5000 3700 60  0001 C CNN "manf#"
+F 5 "NXP_Semiconductors" H 5000 3700 60  0001 C CNN "Manufacturer"
+F 6 "http://datasheet.octopart.com/BC847-Philips-datasheet-5341283.pdf" H 5000 3700 60  0001 C CNN "Specification"
+F 7 "https://store.comet.bg/Catalogue/Product/25145/" H 5000 3700 60  0001 C CNN "Specification2"
+	1    5000 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 58C813F2
+P 6600 5700
+F 0 "P1" H 6600 5900 50  0000 C CNN
+F 1 "CONN_01X03" H 6650 5500 50  0000 C CNN
+F 2 "CC_Footprint:WF3R" H 6600 5700 50  0001 C CNN
+F 3 "" H 6600 5700 50  0000 C CNN
+F 4 "CI3103P1H00" H 6600 5700 60  0001 C CNN "manf#"
+F 5 "CVILUX" H 6600 5700 60  0001 C CNN "Manufacturer"
+F 6 "https://store.comet.bg/Catalogue/Product/22269/" H 6600 5700 60  0001 C CNN "Specification"
+F 7 "https://store.comet.bg/Catalogue/Product/22266/#e30%3D" H 6600 5700 60  0001 C CNN "Counterpart"
+F 8 "https://store.comet.bg/Catalogue/Product/12279/" H 6600 5700 60  0001 C CNN "ConnectingCable"
+	1    6600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT_TRIM RV1
+U 1 1 58C836FA
+P 4500 1750
+F 0 "RV1" V 4325 1750 50  0000 C CNN
+F 1 "5K" V 4400 1750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Piher_PT-6v_Horizontal" H 4500 1750 50  0001 C CNN
+F 3 "" H 4500 1750 50  0000 C CNN
+	1    4500 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 58C83802
+P 5050 1750
+F 0 "R5" V 5130 1750 50  0000 C CNN
+F 1 "8K2" V 5050 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4980 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0000 C CNN
+F 4 "ERJ-6ENF8201V" V 5050 1750 60  0001 C CNN "manf#"
+F 5 "Panasonic" V 5050 1750 60  0001 C CNN "Manufacturer"
+	1    5050 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 58C838F4
+P 3950 1750
+F 0 "R1" V 4030 1750 50  0000 C CNN
+F 1 "10K" V 3950 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 1750 50  0001 C CNN
+F 3 "" H 3950 1750 50  0000 C CNN
+	1    3950 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 58C839A3
+P 5650 2900
+F 0 "R6" V 5730 2900 50  0000 C CNN
+F 1 "560R" V 5650 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 2900 50  0001 C CNN
+F 3 "" H 5650 2900 50  0000 C CNN
+	1    5650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 58C839FD
+P 4250 2900
+F 0 "R2" V 4330 2900 50  0000 C CNN
+F 1 "200K" V 4250 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4180 2900 50  0001 C CNN
+F 3 "" H 4250 2900 50  0000 C CNN
+F 4 "ERJ-6GEYJ204V" V 4250 2900 60  0001 C CNN "manf#"
+F 5 "Panasonic" V 4250 2900 60  0001 C CNN "Manufacturer"
+	1    4250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 58C83C2F
+P 4350 5100
+F 0 "R3" V 4430 5100 50  0000 C CNN
+F 1 "1K" V 4350 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4280 5100 50  0001 C CNN
+F 3 "" H 4350 5100 50  0000 C CNN
+	1    4350 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 58C83D0B
+P 4900 4150
+F 0 "R4" V 4980 4150 50  0000 C CNN
+F 1 "10R" V 4900 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4830 4150 50  0001 C CNN
+F 3 "" H 4900 4150 50  0000 C CNN
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 58C83D8D
+P 5750 3900
+F 0 "R7" V 5830 3900 50  0000 C CNN
+F 1 "220R" V 5750 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5680 3900 50  0001 C CNN
+F 3 "" H 5750 3900 50  0000 C CNN
+	1    5750 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 58C83E19
+P 7850 3700
+F 0 "R9" V 7930 3700 50  0000 C CNN
+F 1 "10K" V 7850 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7780 3700 50  0001 C CNN
+F 3 "" H 7850 3700 50  0000 C CNN
+F 4 "AS08J1002ET" V 7850 3700 60  0001 C CNN "manf#"
+F 5 "Ohmite" V 7850 3700 60  0001 C CNN "Manufacturer"
+	1    7850 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 58C83E93
+P 8550 3500
+F 0 "R12" V 8630 3500 50  0000 C CNN
+F 1 "10M" V 8550 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8480 3500 50  0001 C CNN
+F 3 "" H 8550 3500 50  0000 C CNN
+	1    8550 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 58C83F35
+P 7650 3300
+F 0 "R8" V 7730 3300 50  0000 C CNN
+F 1 "100K" V 7650 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7580 3300 50  0001 C CNN
+F 3 "" H 7650 3300 50  0000 C CNN
+	1    7650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R11
+U 1 1 58C83F8E
+P 8550 2900
+F 0 "R11" V 8630 2900 50  0000 C CNN
+F 1 "100K" V 8550 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8480 2900 50  0001 C CNN
+F 3 "" H 8550 2900 50  0000 C CNN
+F 4 "AS08J1003ET" V 8550 2900 60  0001 C CNN "manf#"
+F 5 "Ohmite" V 8550 2900 60  0001 C CNN "Manufacturer"
+	1    8550 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 58C84034
+P 5650 2700
+F 0 "C4" V 5700 2800 50  0000 L CNN
+F 1 "47n" V 5700 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5688 2550 50  0001 C CNN
+F 3 "" H 5650 2700 50  0000 C CNN
+F 4 "885012207043" V 5650 2700 60  0001 C CNN "manf#"
+F 5 "Wurth Electronics" V 5650 2700 60  0001 C CNN "Manufacturer"
+F 6 "710-885012207043" V 5650 2700 60  0001 C CNN "mouser#"
+	1    5650 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 58C840C7
+P 5150 2900
+F 0 "C3" V 5200 3000 50  0000 L CNN
+F 1 "4n7" V 5200 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5188 2750 50  0001 C CNN
+F 3 "" H 5150 2900 50  0000 C CNN
+	1    5150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 58C84787
+P 8550 3300
+F 0 "C5" V 8600 3400 50  0000 L CNN
+F 1 "1n5" V 8600 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8588 3150 50  0001 C CNN
+F 3 "" H 8550 3300 50  0000 C CNN
+	1    8550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 58C849B4
+P 3900 5550
+F 0 "C1" H 3925 5650 50  0000 L CNN
+F 1 "100uF" H 3925 5450 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 3938 5400 50  0001 C CNN
+F 3 "" H 3900 5550 50  0000 C CNN
+	1    3900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 58C84A36
+P 5100 5750
+F 0 "C2" H 5125 5850 50  0000 L CNN
+F 1 "22uF" H 5125 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 5138 5600 50  0001 C CNN
+F 3 "" H 5100 5750 50  0000 C CNN
+	1    5100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1750 4900 1750
+Wire Wire Line
+	4100 1750 4350 1750
+Wire Wire Line
+	5800 2700 6000 2700
+Wire Wire Line
+	5800 2900 6000 2900
+Wire Wire Line
+	5300 2900 5500 2900
+Wire Wire Line
+	4400 2900 5000 2900
+Wire Wire Line
+	5200 3700 6000 3700
+Wire Wire Line
+	5900 3900 6000 3900
+Wire Wire Line
+	4900 3900 4900 4000
+Wire Wire Line
+	3800 5100 4200 5100
+Wire Wire Line
+	3900 5400 3900 5100
+Connection ~ 3900 5100
+Wire Wire Line
+	3800 4900 4300 4900
+Wire Wire Line
+	4300 4900 4300 3500
+Wire Wire Line
+	4300 3500 4900 3500
+Wire Wire Line
+	5100 5600 6400 5600
+Wire Wire Line
+	5600 3900 5600 5700
+Wire Wire Line
+	5600 5700 6400 5700
+Wire Wire Line
+	2300 3100 6000 3100
+Wire Wire Line
+	2300 3100 2300 4900
+Wire Wire Line
+	2300 4900 2400 4900
+Wire Wire Line
+	2100 2700 5500 2700
+Wire Wire Line
+	2100 2700 2100 5100
+Wire Wire Line
+	2100 5100 2400 5100
+Wire Wire Line
+	4100 2900 4100 3100
+Connection ~ 4100 3100
+Wire Wire Line
+	4500 1900 4500 2700
+Connection ~ 4500 2700
+Wire Wire Line
+	4700 2700 4700 2900
+Connection ~ 4700 2900
+Connection ~ 4700 2700
+Wire Wire Line
+	3800 1750 3600 1750
+Wire Wire Line
+	3600 1750 3600 3300
+Wire Wire Line
+	3600 3300 6000 3300
+Wire Wire Line
+	5350 3500 6000 3500
+Wire Wire Line
+	5350 3500 5350 5600
+Connection ~ 5350 5600
+Wire Wire Line
+	4500 5100 5350 5100
+Connection ~ 5350 5100
+Wire Wire Line
+	7400 2900 8400 2900
+Wire Wire Line
+	7400 3300 7500 3300
+Wire Wire Line
+	7400 3500 8400 3500
+Wire Wire Line
+	7400 3700 7700 3700
+Wire Wire Line
+	7800 3300 7850 3300
+Wire Wire Line
+	7850 3300 7850 3500
+Connection ~ 7850 3500
+Wire Wire Line
+	8000 3700 8100 3700
+Wire Wire Line
+	8100 3700 8100 2900
+Connection ~ 8100 2900
+Wire Wire Line
+	8400 3300 8300 3300
+Wire Wire Line
+	8300 3300 8300 3500
+Connection ~ 8300 3500
+Wire Wire Line
+	8700 2900 9200 2900
+Wire Wire Line
+	9200 1750 9200 4000
+Wire Wire Line
+	8700 3500 9200 3500
+Wire Wire Line
+	8700 3300 8900 3300
+Wire Wire Line
+	8900 3300 8900 3500
+Connection ~ 8900 3500
+Wire Wire Line
+	5200 1750 9200 1750
+Connection ~ 9200 2900
+Wire Wire Line
+	5400 1750 5400 3500
+Connection ~ 5400 3500
+Connection ~ 5400 1750
+$Comp
+L VAA #PWR01
+U 1 1 58C865F4
+P 6200 5400
+F 0 "#PWR01" H 6200 5250 50  0001 C CNN
+F 1 "VAA" H 6200 5550 50  0000 C CNN
+F 2 "" H 6200 5400 50  0000 C CNN
+F 3 "" H 6200 5400 50  0000 C CNN
+	1    6200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58C86632
+P 6300 5900
+F 0 "#PWR02" H 6300 5650 50  0001 C CNN
+F 1 "GND" H 6300 5750 50  0000 C CNN
+F 2 "" H 6300 5900 50  0000 C CNN
+F 3 "" H 6300 5900 50  0000 C CNN
+	1    6300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 58C86670
+P 5100 6000
+F 0 "#PWR03" H 5100 5750 50  0001 C CNN
+F 1 "GND" H 5100 5850 50  0000 C CNN
+F 2 "" H 5100 6000 50  0000 C CNN
+F 3 "" H 5100 6000 50  0000 C CNN
+	1    5100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 58C866AE
+P 3900 5800
+F 0 "#PWR04" H 3900 5550 50  0001 C CNN
+F 1 "GND" H 3900 5650 50  0000 C CNN
+F 2 "" H 3900 5800 50  0000 C CNN
+F 3 "" H 3900 5800 50  0000 C CNN
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 58C866EC
+P 4900 4400
+F 0 "#PWR05" H 4900 4150 50  0001 C CNN
+F 1 "GND" H 4900 4250 50  0000 C CNN
+F 2 "" H 4900 4400 50  0000 C CNN
+F 3 "" H 4900 4400 50  0000 C CNN
+	1    4900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 58C8687A
+P 7500 3100
+F 0 "#PWR06" H 7500 2850 50  0001 C CNN
+F 1 "GND" H 7600 3100 50  0000 C CNN
+F 2 "" H 7500 3100 50  0000 C CNN
+F 3 "" H 7500 3100 50  0000 C CNN
+	1    7500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3100 7500 3100
+Wire Wire Line
+	3900 5700 3900 5800
+Wire Wire Line
+	5100 5900 5100 6000
+Wire Wire Line
+	6300 5900 6300 5800
+Wire Wire Line
+	6300 5800 6400 5800
+Wire Wire Line
+	4900 4300 4900 4400
+Wire Wire Line
+	6200 5400 6200 5600
+Connection ~ 6200 5600
+NoConn ~ 7400 3900
+NoConn ~ 7400 4100
+NoConn ~ 6000 4100
+NoConn ~ 7400 2700
+$Comp
+L R R10
+U 1 1 58C876EC
+P 8300 4000
+F 0 "R10" V 8380 4000 50  0000 C CNN
+F 1 "1K" V 8300 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8230 4000 50  0001 C CNN
+F 3 "" H 8300 4000 50  0000 C CNN
+F 4 "AS08J1001ET" V 8300 4000 60  0001 C CNN "manf#"
+F 5 "Ohmite" V 8300 4000 60  0001 C CNN "Manufacturer"
+	1    8300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 58C877A8
+P 7750 4000
+F 0 "JP1" H 7750 4080 50  0000 C CNN
+F 1 "Jumper_NO" H 7760 3940 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7750 4000 50  0001 C CNN
+F 3 "" H 7750 4000 50  0000 C CNN
+F 4 "CH31022V200" H 7750 4000 60  0001 C CNN "manf#"
+F 5 "CVILUX" H 7750 4000 60  0001 C CNN "Manufacturer"
+F 6 "https://store.comet.bg/Catalogue/Product/17819/#e30%3D" H 7750 4000 60  0001 C CNN "Specification"
+	1    7750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 58C879A8
+P 8850 4000
+F 0 "D1" H 8850 4100 50  0000 C CNN
+F 1 "LED" H 8850 3900 50  0000 C CNN
+F 2 "CC_Footprint:LED_D3.0mm" H 8850 4000 50  0001 C CNN
+F 3 "" H 8850 4000 50  0000 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4000 7600 4000
+Wire Wire Line
+	7600 4000 7600 3700
+Connection ~ 7600 3700
+Wire Wire Line
+	7850 4000 8150 4000
+Wire Wire Line
+	8450 4000 8700 4000
+Wire Wire Line
+	9200 4000 9000 4000
+Connection ~ 9200 3500
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 58C88504
+P 7800 5000
+F 0 "#FLG07" H 7800 5095 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 5180 50  0000 C CNN
+F 2 "" H 7800 5000 50  0000 C CNN
+F 3 "" H 7800 5000 50  0000 C CNN
+	1    7800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 58C88548
+P 7800 5600
+F 0 "#FLG08" H 7800 5695 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 5780 50  0000 C CNN
+F 2 "" H 7800 5600 50  0000 C CNN
+F 3 "" H 7800 5600 50  0000 C CNN
+	1    7800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAA #PWR09
+U 1 1 58C88754
+P 7450 5000
+F 0 "#PWR09" H 7450 4850 50  0001 C CNN
+F 1 "VAA" H 7450 5150 50  0000 C CNN
+F 2 "" H 7450 5000 50  0000 C CNN
+F 3 "" H 7450 5000 50  0000 C CNN
+	1    7450 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 58C88798
+P 7800 5900
+F 0 "#PWR010" H 7800 5650 50  0001 C CNN
+F 1 "GND" H 7800 5750 50  0000 C CNN
+F 2 "" H 7800 5900 50  0000 C CNN
+F 3 "" H 7800 5900 50  0000 C CNN
+	1    7800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5000 7800 5000
+Wire Wire Line
+	7800 5600 7800 5900
+Text Notes 6700 5600 0    60   ~ 0
+Power +
+Text Notes 6700 5700 0    60   ~ 0
+Out (Active "High")
+Text Notes 6700 5800 0    60   ~ 0
+GND
+$EndSCHEMATC
